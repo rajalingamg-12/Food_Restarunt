@@ -21,6 +21,7 @@ img {
   background-image: url(assets/res-backgrd-1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   background-position: bottom;
   width: 100%;
   height: 100vh;
@@ -281,11 +282,8 @@ img {
   margin: auto;
   width: 80%;
   padding-top: 50px;
-}
-.spl1 {
-  margin: auto;
-  width: 80%;
-  padding-top: 15px;
+  line-height: 60px;
+  font-size: 35px;
 }
 .para_4 {
   margin: auto;
@@ -298,7 +296,7 @@ img {
   background-image: url(assets/background-4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-  margin:10px  auto;
+  margin: 10px auto;
   width: 100%;
   height: 400px;
 }
@@ -407,7 +405,7 @@ hr {
   color: #a97959;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin:auto;
+  margin: auto;
   width: 50px;
   display: flex;
   gap: 50px;
